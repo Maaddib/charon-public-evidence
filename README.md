@@ -1,6 +1,6 @@
 # Charon - Technical Development Evidence
 
-This repository presents a public, assessor-facing record of the development
+This repository presents a public, record of the development
 of Charon, an independently developed investigative-intelligence platform.
 
 It traces the work from the original OSINT Pipeline experiments in late 2025
