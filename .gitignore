@@ -1,0 +1,51 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*token*
+*credential*
+*secret*
+
+# Research, case and database material
+data/
+cases/
+logs/
+output/
+reports/
+exports/
+*.csv
+*.tsv
+*.ods
+*.xlsx
+*.jsonl
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+
+# Archives can silently contain excluded material
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Application source does not belong in the evidence repository
+src/
+charon/
+tests/
+.venv/
+__pycache__/
+*.pyc
+
+# Local editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+*~
+*.bak
+*.swp

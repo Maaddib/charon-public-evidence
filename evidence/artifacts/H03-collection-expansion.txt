@@ -1,0 +1,31 @@
+EVIDENCE H03 - STRUCTURED COLLECTION AND CRAWLER EXPANSION
+
+Commit 1:
+  acfde209f31d22fa7d24ea8d879af363907d5b65
+  2026-03-04T18:56:48+00:00
+  Add Companies House query collector + EDD CSV extractor
+  5 files changed, 562 insertions
+
+Commit 2:
+  4fb6caf7b1b45747099286f43742c05073e0a4f6
+  2026-03-19T19:38:14+00:00
+  Add Machines crawler, search components, profiles, and main dispatcher
+  integration
+  28 files changed, 3798 insertions, 206 deletions
+
+Selected technical changes recorded by Git:
+- structured corporate search and extraction
+- targeted crawler with SQLite and PostgreSQL storage options
+- crawler configuration and storage layout
+- search repository and runner
+- dispatcher support for both case ingestion and crawler modes
+- URL extraction and rule-based tagging
+- configuration and database initialisation updates
+- redaction helpers for identifiers in collected material
+
+Historical dispatcher Git blob:
+9cb3258b1481716d41b1d1c8190cdde3e194cf97
+
+Excluded:
+case names, source selections, URLs, target profiles, collected records and
+implementation bodies.

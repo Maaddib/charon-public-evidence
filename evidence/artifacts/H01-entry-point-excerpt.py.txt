@@ -1,0 +1,24 @@
+# Verified excerpt from commit 9f4fb19
+# Original path: CharonProject/Charon/main.py
+# Git blob: 609c6ea8859c904352394d82f7f8ce3d8e5f9581
+
+"""
+Entry point for the Charon OSINT pipeline.
+
+For the research case, behaviour is:
+
+1. Load the case and sources configuration.
+2. Load the sieves configuration defining how text becomes relevant snippets.
+3. For each source:
+   a. Iterate over configured URLs.
+   b. Select HTTP, Tor, RSS, API or plain-text collection.
+   c. Store raw content in MinIO.
+   d. Run the sieve pipeline.
+   e. Run lightweight NLP analysis.
+   f. Store a selected snippet in PostgreSQL for downstream analysis.
+
+This was a one-snippet-per-URL orchestrator designed for exploratory mapping.
+"""
+
+# This public excerpt preserves the historical processing sequence while
+# removing the named research case and all executable implementation.

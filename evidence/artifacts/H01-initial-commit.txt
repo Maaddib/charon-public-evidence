@@ -1,0 +1,26 @@
+EVIDENCE H01 - INITIAL OSINT PIPELINE COMMIT
+
+Repository: osint-pipeline (private retained repository)
+Commit: 9f4fb19a955060a6404aeda89e7a8248ee70f8c8
+Author date: 2025-12-05T20:15:11+00:00
+Subject: Initial snapshot before restructure
+Change statistic: 40 files changed, 2345 insertions
+
+Selected recorded components:
+- collector router
+- HTTP, API, RSS, plain-text and Tor-oriented collectors
+- source configuration
+- database models and session
+- MinIO object-storage client
+- NLP sieve and sieve pipeline
+- pipeline entry point
+- snippet analysis and export scripts
+- Docker-backed OpenSearch configuration
+
+Verification:
+- Historical entry point Git blob:
+  609c6ea8859c904352394d82f7f8ce3d8e5f9581
+
+Disclosure:
+File paths are summarised. Source URLs, environment values, credentials,
+research data and implementation bodies are excluded.

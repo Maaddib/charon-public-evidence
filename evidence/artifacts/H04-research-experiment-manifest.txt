@@ -1,0 +1,38 @@
+EVIDENCE H04 - RESEARCH EXPERIMENT MANIFEST
+
+These files were preserved in the July repository snapshot. Their retained
+filesystem dates support the sequence, but are weaker dating evidence than
+individual contemporaneous Git commits.
+
+2026-04-13T10:17:19+01:00
+  adaptive_discovery.py
+  SHA-256 08844470b2409789aea1c3476d270771b48cd28f1c532881a62b8035c2b13be4
+
+2026-04-13T11:45:57+01:00
+  reddit_analysis.py
+  SHA-256 d8d14817f17b44e9b0689586d279cc8d7cb34d34752f5350a1bfe4ff20aa12ab
+
+2026-06-14T13:54:43+01:00
+  tfidf_analysis.py
+  SHA-256 32616ac41cd5ebffcf2a0afea011d21736e4310bce53f69759a9ed8deb663b34
+
+2026-06-14T14:10:00+01:00
+  classifier.py
+  SHA-256 01dc89b851c0ea116cb35ffa7156509df10d7f448ad28c1f94f2f8448048c3e2
+
+2026-06-14T14:12:54+01:00
+  entity_extraction.py
+  SHA-256 8be63460c1b67deba08f5c9288a2098dc8f4e9cee4353c595df1d4e125867e6b
+
+Research techniques evidenced:
+- public-discourse collection
+- adaptive candidate and phrase discovery
+- topic and moderation-pattern analysis
+- TF-IDF term analysis
+- supervised classification
+- entity extraction
+- coded-dataset validation and repair
+
+Excluded:
+corpus files, platform communities, usernames, quotations, source URLs,
+keywords, coded records, model outputs and derived datasets.

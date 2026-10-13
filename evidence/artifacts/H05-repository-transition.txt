@@ -1,0 +1,36 @@
+EVIDENCE H05 - TRANSITION TO STANDALONE CHARON CORE
+
+Original research repository:
+  Commit: 065e66293668c67eae8bddda5a7ef2c60992332d
+  Date: 2026-07-11T09:17:42+01:00
+  Subject: Preserve existing Charon research repository
+  Change statistic: 133 files changed, 44685 insertions, 2 deletions
+
+Standalone Charon Core repository:
+  Commit: d387ca780a01ac55296e67bb1c5d13957646516b
+  Date: 2026-07-11T10:39:58+01:00
+  Subject: Initialize Charon Core evidence foundation
+
+Elapsed time between recorded commits: 1 hour, 22 minutes, 16 seconds.
+
+Shared architectural vocabulary:
+- source record
+- evidence item
+- observation
+- entity mention
+- resolved entity
+- relationship
+- assessment finding
+- analysis and reporting boundaries
+
+Evidence-first prototype model Git blob:
+118122d8a2321a323c4593cbee5c79094604565e
+
+Interpretation:
+The close timing, shared package concepts and common domain vocabulary support
+the conclusion that the standalone repository developed from the evidence-first
+prototype preserved in the original research repository.
+
+Caution:
+The July preservation commit also included accumulated research outputs. Its
+line count is not represented as wholly new implementation work.

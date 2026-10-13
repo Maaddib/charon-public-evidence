@@ -1,0 +1,50 @@
+EVIDENCE H02 - PROFILE-DRIVEN EDD STRUCTURE
+
+Repository: osint-pipeline (private retained repository)
+Commit: 05a356191d71c72ffae31a370229f2825f97764e
+Author date: 2025-12-15T13:01:29+00:00
+Subject: Add profile-driven EDD architecture with steps, shared source packs,
+         case template, and dry-run validation
+Change statistic: 40 files changed, 2530 insertions
+
+Structure recorded in the commit:
+
+cases/case_template_individual/
+  README.md
+  case.yaml
+
+profiles/edd_individual_v1/
+  profile.yaml
+  steps/
+    01_identity.yaml
+    02_footprint.yaml
+    03_corporate.yaml
+    04_litigation.yaml
+    05_reputation.yaml
+    06_behaviour.yaml
+    07_network.yaml
+    08_property.yaml
+    09_risk_scoring.yaml
+
+profiles/_shared_packs/
+  reusable public-source packs for registries, courts, sanctions,
+  regulatory material, news, archives, social sources and property signals
+
+scripts/
+  dry_run_case.py
+  validate_case.py
+
+templates/reports/
+  EDD_Individual_Report_TEMPLATE.md
+
+Verified profile Git blob:
+4f762e857d9e91cb95ddc5f8737d59dbe906076a
+
+Public profile principles retained in the evidence narrative:
+- public-source collection
+- data minimisation and purpose limitation
+- auditability, fairness and context
+- allegations distinguished from proven outcomes
+- inferences labelled
+- corroboration where identity-collision risk is high
+- paid checks require explicit authorisation

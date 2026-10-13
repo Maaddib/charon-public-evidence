@@ -1,0 +1,34 @@
+EVIDENCE H05 - CHARON CORE DEVELOPMENT MILESTONES
+
+2026-07-11 d387ca7  Initialize Charon Core evidence foundation
+2026-07-11 d5befdd  Add PostgreSQL and MinIO evidence ingestion pipeline
+2026-07-11 307da3a  Complete entity-resolution engine
+2026-07-12 92ef8ab  Complete assessment engine
+2026-07-13 d400672  Complete reporting engine and Charon Core
+2026-07-15 498bb37  Build corporate domain architecture
+2026-07-16 957fc61  Complete corporate analysis and reporting integration
+2026-07-19 aded2f2  Add initial CLI framework
+2026-07-19 b6d8143  Add case creation command
+2026-07-19 9f2f5b1  Add case repository operations and show command
+2026-07-24 ae358c8  Add knowledge-graph pipeline CLI integration
+2026-07-24 4651383  Add persistent analysis storage
+2026-08-01 63876dd  Complete controlled expansion and initial assessment rules
+2026-08-01 014fd0a  Complete composite findings stage
+2026-08-01 227a054  Add analytical reasoning pipeline
+2026-08-01 fb56600  Add investigation hypothesis persistence
+2026-08-01 533d0ff  Integrate persisted analytical reasoning CLI
+2026-08-23 821492d  Adopt structured reporting
+2026-08-23 7d60800  Add statement-of-affairs financial facts
+2026-08-23 9ef3315  Add deterministic insolvency calculations
+2026-08-23 a2fce6c  Add conservative insolvency financial findings
+2026-08-23 7ff949f  Integrate financial analysis into reporting
+2026-08-24 70e9e5a  Add on-demand analytical provider
+2026-10-13 2122caa  Extend financial extraction, Gazette intelligence and
+                     analytical validation
+
+Latest recorded change:
+  36 files changed, 5400 insertions, 104 deletions
+  Git tree: b8a8ef1bf7ff8cd6a89b33a81a284014bba41d24
+
+This selected milestone list records progression without exposing private file
+contents, case material or commercial implementation details.

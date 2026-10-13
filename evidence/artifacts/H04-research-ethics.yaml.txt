@@ -1,0 +1,24 @@
+# EVIDENCE H04 - RETAINED RESEARCH ETHICS CONTROLS
+# File date: 2026-06-13T06:40:28+01:00
+# SHA-256: c6a335424855ef52d7c84bbd6087d51bf6cd16569b9eccc024164ab683ea4672
+
+ethical_position:
+  - public discourse only
+  - no interaction with users
+  - no deception
+  - no private messages
+  - no attempts to identify offenders
+  - no doxxing
+  - no direct attribution of criminal conduct
+  - discourse treated as trace evidence of ecosystem functions
+
+risk_controls:
+  - usernames hashed or removed
+  - direct identifiers excluded
+  - quotations paraphrased where necessary
+  - harmful procedural detail excluded from publication
+  - analysis reported at aggregate or function level
+
+# This is a public-safe transcription of the retained control file. Research
+# platform names and corpus configuration are documented separately only where
+# necessary to explain the methodology.
